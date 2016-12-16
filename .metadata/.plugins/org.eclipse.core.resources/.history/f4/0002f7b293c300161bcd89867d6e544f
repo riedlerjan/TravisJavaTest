@@ -1,0 +1,12 @@
+package test;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+import at.htlwels.riedler.Bruch;
+
+public class DivisionShouldCalculate {
+	
+	Bruch tester = new Bruch();
+
+}
