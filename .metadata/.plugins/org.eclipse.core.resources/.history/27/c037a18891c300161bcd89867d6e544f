@@ -29,10 +29,6 @@ public class Bruch {
 		return "Bruch [zaehler=" + zaehler + ", nenner=" + nenner + "]";
 	}
 	
-	public int dividiere(){
-		return this.zaehler/this.nenner;
-	}
-	
 	public void addiere(Bruch b){
 		this.zaehler = this.zaehler * b.nenner + this.nenner * b.zaehler;
 		this.nenner =this.nenner * b.nenner;
