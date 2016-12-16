@@ -9,7 +9,7 @@ public class Bruch {
 	this.zaehler= zaehler;
 	}
 	public void setzeNenner(int nenner) {
-		//Ausnahme ausloesen wenn nenner 0 ist
+		//Ausnahme auslösen wenn nenner 0 ist
 		//alternativ: wenn nenner ==0 return false (void durch boolean ersetzen)
 		if (nenner==0){
 			throw new IllegalArgumentException("Nenner darf nicht 0 sein");
