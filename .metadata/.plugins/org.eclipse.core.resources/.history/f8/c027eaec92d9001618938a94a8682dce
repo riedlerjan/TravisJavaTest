@@ -1,0 +1,15 @@
+package at.htlwels.riedler;
+
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+
+public class Test {
+	  @Test
+	  public void evaluatesExpression() {
+	    Bruch b = new Bruch(4, 2);
+	    int erg = b.dividiere();
+	    assertEquals(2, erg);
+	  }
+}
