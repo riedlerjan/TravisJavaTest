@@ -1,5 +1,5 @@
-<project name="Bruch" basedir="." default="main">
-    <property name="dir.src"     value="Bruch/src"/>
+<project name="junit-example" basedir="." default="main">
+    <property name="dir.src"     value="junit-example/src"/>
     <property name="dir.build"   value="build"/>
     <property name="dir.classes" value="${dir.build}/classes"/>
     <property name="dir.jar"     value="${dir.build}/jar"/>
